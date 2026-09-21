@@ -62,10 +62,10 @@ const unityApp = {
         // Create intuitive image instruction for the user.
         const image = document.createElement('img');
         if (isPortraitLocked) {
-            image.src = 'https://cdn.jsdelivr.net/gh/papamamia/sers@main/TemplateData/portrait-only.png';
+            image.src = 'https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/sers@main/TemplateData/portrait-only.png';
         }
         else if (isLandscapeLocked) {
-            image.src = 'https://cdn.jsdelivr.net/gh/papamamia/sers@main/https://cdn.jsdelivr.net/gh/papamamia/sers@main/TemplateData/landscape-only.png';
+            image.src = 'https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/sers@main/https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/sers@main/TemplateData/landscape-only.png';
         }
         image.style.display = 'flex';
         image.style.width = '100px';
@@ -177,7 +177,7 @@ const unityApp = {
         const loadingBar = document.querySelector("#unity-loading-bar");
         const progressBarFull = document.querySelector("#unity-progress-bar-full");
 
-        const buildUrl = "https://cdn.jsdelivr.net/gh/papamamia/sers@main/Build";
+        const buildUrl = "https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/sers@main/Build";
         const loaderUrl = buildUrl + "/cee3bfd5589651a8b16e2a12b8abe5b3.loader.js";
         const config = {
             arguments: [],
